@@ -1,0 +1,50 @@
+.rss-feed-plugin {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.rss-feed-list li {
+    display: block;
+    /*position: absolute;*/
+    overflow: hidden;
+    font-size: 18px;
+    border-bottom: 1px solid #ccc;
+}
+.rss-feed-list li > div {
+    padding: 5px 10px;
+}
+.rss-feeds-entry a {
+    font-size: 14px;
+    line-height: 1.1;
+    color: #3a45bf;
+    font-weight: bold;
+    display: block;
+    margin-top: 5px;
+}
+.blur-bottom {
+    position: absolute;
+    top: 0;
+    width: 100%;
+
+}
+
+/* nav */
+.feed-navigation {
+    position: absolute;
+    right: 0;
+    top: 15px;
+    width: 10px;
+    background: #eaeaea;
+}
+
+.down-feed-list {
+    visibility: hidden;
+}
+
+
+
+.fake-infoblock {
+    width: 200px;
+    position: relative;
+}
